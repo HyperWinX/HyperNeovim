@@ -13,3 +13,7 @@ vim.api.nvim_set_keymap("n", "<C-t>", ":NvimTreeToggle<CR>", keybind_opts)
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
+vim.opt.clipboard = "unnamedplus"
+
+vim.o.background = "dark"
+vim.cmd([[colorscheme gruvbox]])
